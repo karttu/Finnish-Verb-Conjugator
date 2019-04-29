@@ -1,0 +1,416 @@
+Article 37029 of soc.culture.nordic:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!hydra.Helsinki.FI!news.helsinki.fi!porsumac16.pc.helsinki.fi!user
+From: holman@katk.helsinki.fi (Eugene Holman)
+Newsgroups: soc.culture.nordic
+Subject: Re: Is Finnish...
+Followup-To: soc.culture.nordic
+Date: 25 Sep 1994 18:01:59 GMT
+Organization: University of Helsinki
+Lines: 124
+Message-ID: <holman-250994191339@porsumac16.pc.helsinki.fi>
+References: <kurt.780330538@bavur>
+NNTP-Posting-Host: porsumac16.pc.helsinki.fi
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+In article <kurt.780330538@bavur>, kurt@dna.lth.se (Kurt Swanson Esq.)
+wrote:
+
+> 
+> ... one of those languages (like Turkish) where one cannot pronounce
+> two consonants in a row, unless they come in separate syllables?
+> 
+
+Finnish has strict phonoloigical constraints on syllables, morphemes, and
+words, but that  does not preclude two successive consonants in the same
+syllable.
+
+At the margins of words, Finnish allows at most one consonant word
+initially, and at most one dental consonant from the set /t, s, n, l, r/
+word finally.
+Recent loans and neologisms do not necessarily conform to these
+constraints, e.g. kriisi 'crisis', spurgu 'drunken bum', prameileva
+'gaudy'. stidi 'match'
+
+Between syllables in root morphemes Finnish allows numerous consonant
+clusters,, some of them articularily complex, e.g. mels-ke 'noise, din',
+kort-su 'condom', mark-ka 'mark', palt-tu 'blood pudding'.
+
+These examples are sufficient to refute your hypothesis.
+
+> Please excuse being compared to Turkish.  Apparently this is a sore
+> spot.  I met a Frenchman in Helsinki who said that he had also
+> remarked a similarity between Finnish and Turkish.  He mentioned this
+> to his Finnish girlfriend who became quite angry at the thought.
+
+During the 19th century many reputable scholars entertained the hypothesis
+that Finnish was the westernmost representative of a group of languages
+which stretched across Eurasia and included Mongolian, the Turkic
+languages, Yukaghir, Korean, Ainu, and perhaps Japanese.
+
+The great Finnish linguist C. J. Ramstedt (1873-1950) was one of the
+scholars who investigated the question seriously. His research was
+inconclusive, but he seems to have been in favor of this idea. The Swedish
+linguist Björn Collinder, and the recently deceased American linguist
+Robert Austerlitz are among the modern scholars to have the knowledge of
+Eurasian languages and linguistic methodology to have tackled the question
+seriously.
+
+I once attended a paper given by prof. Austerlitz on the topic. While not
+wanting to claim that an actual relationship cpuld be demonstrated, he
+pointed out that Finnish and Lappish form the westernmost arm of a large
+group of languages which are united by numerous structural features. These
+include vowel harmony, agglutination as the favored grammatical strategy,
+lack of grammatical gender, use of the singular with numbers larger than
+one, a preference for SOV word order, a strict phonological constratints on
+the shape of syllables, morphemes, and words, etc. stretching from
+Scandinavia across Eurasia to the Northern Pacific, the Aleutian Islands
+and Alaska, and possibly including Korean, Japanase, Ainu, and Gilyak
+(Nivkh).
+
+The methodology developed during the 19th century to deomonstrate that
+langauges were genologically related was based on the assumption of regular
+sound change. The evidence for these assumptions was usually culled from
+written records produced by relatively settled populations interacting with
+a small number of languages. These methods have succesfully been used in
+the study of American Indian and African langauges, that is to say, of
+languages lacking continuous written records. The conditions in which the
+northern Eurasian languages are spoken - vast tracts of sparsely inhabited
+land in which many small have languages coexisted and intermingled over the
+centuries, confronts tradional historical linguistics with challeneges that
+it has not been able to deal with satisfactorily. Specifically, what weight
+is to be given to structural similarity when trying to determione whether
+two languages are geneologically related? 
+
+> 
+> Personally I don't see any connection between Turkish and Finnish
+> other than what I mentioned, as well as both being of Asiatic origin.
+> --
+
+Hungarian and Finnish have numerous structural similarities, even if the
+number of roots they can be demonstrated to hold in common numbers no more
+than a few hundred. Turkish, Hungarian, and Finnish all share numerous
+structural similarities, but, Finnish and Turkish, at least, do not appear
+to have a significant number of roots in common. (With Hungarian the story
+is different because of a long period of historical contact between
+speakers of Hungarian and Turkish.) In any case, speakers of Turkish and
+Finnish learning each others languages are surprised by the large number of
+organizational similarities. Just to name a few: vowel harmony, consonant
+gradation, a strong tensency towards haplosemia (= bidirectional one-form
+one-meaning relationships for morphemes), a system of local cases based on
+a tripartite division into 'motion towards', 'location at', 'separation
+from', opposing definite to indefinite by using different cases, a tendency
+to express more subtle local relationships by postpositions, use of the
+singular form of nouns in conjunction with numbers higher than one, lack of
+any trace of grammatical gender, sentence structure characterized by heavy
+premodification. If structural features which are known to have been
+abandoned due to contact with Indo-European langauges are admitted, the
+list must be lengthened to include a preference for SOV word order (largely
+given up in Finnish, still the norm in the non-Baltic--Finnic Uralic
+languages and Turkish), and no case agreement between adjective and noun
+(Finnish has recently acquired agreement on the model of neighboring
+languages, agreement is not even fully implemented in Estonian).
+I should finally add that millennia of contact between the Uralic
+(Finno-Ugric + Samoyed) and Turkic languages have resulted in languages
+which show the features of both: Mari (also known as Cheremis) is a
+strongly Turkicized Finno-Ugric language, while Chuvash is a strongly
+Finno-Ugricized Turkic language.
+
+
+Concluding, then, the hypothesis of a geneological relationship between
+Finnish and Turkish has not been demonstrated, and the present methods used
+for determining the answer to questions of this type are incapable of
+providing a definitive answer. Given that our knowledge of the languages
+and movements of peoples in prehistoric northern Eurasia is sketchy, we can
+neither fully support nor fully debunk the hypothesis. The structural
+relationships we see between Finnish and Turkish can thus be attributed to
+chance - languages which have invested heavily in agglutination as their
+primary grammatical strategy can be expected to develop certain kinds of
+organizational strategies, borrowing - language long spoken by primarily
+nomadic populations inhabiting vast, sparsely populated areas which come
+into contact with other languages of the same type through trade, spouse
+exchange, warfare, will borrow words, expressions, and organizational
+strategies, to common origin, or to some combination of the above. 
+
+
+****************
+With best regards,
+Eugene Holman
+University of Helsinki
+
+
+Article 37083 of soc.culture.nordic:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!news.csc.fi!news.helsinki.fi!porsumac15.pc.helsinki.fi!user
+From: holman@katk.helsinki.fi (Eugene Holman)
+Newsgroups: soc.culture.nordic
+Subject: Re: Is Finnish...
+Followup-To: soc.culture.nordic
+Date: Mon, 26 Sep 1994 21:13:10 +0200
+Organization: University of helsinki
+Lines: 206
+Message-ID: <holman-260994211310@porsusc-15.pc.helsinki.fi>
+References: <kurt.780330538@bavur> <366gm0$isl@tukki.cc.jyu.fi>
+NNTP-Posting-Host: porsumac15.pc.helsinki.fi
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+In article <366gm0$isl@tukki.cc.jyu.fi>, joheko@network.cc.jyu.fi (Jonne
+Henrikki Kolima) wrote:
+
+> In article <kurt.780330538@bavur>, Kurt Swanson Esq. <kurt@dna.lth.se> wrote:
+> >
+> >
+> >Personally I don't see any connection between Turkish and Finnish
+> >other than what I mentioned, as well as both being of Asiatic origin.
+> 
+> 
+> I think this question has already been concluded in some former discussion.
+> In any case, Finnish at least is not of Asiatic origin, its original source
+> (like, thousands of years ago) was near Volga a good way west of the Urals
+> mountains.  And, I think that every form of historical linguistics places
+> Finnish in its own 'camp' of Fenno-Ugric languages, which Turkish isn't 
+> a part of.
+> 
+
+The answer to the question is more complex. 
+
+THE ORIGIN OF FINNISH
+
+Finnish originated in Finland. The mixture of Finno-Ugric, Baltic, Slavic,
+and Germanic elements out of which the Baltic-Finnic dialects which
+provided the input out of which modern Finnish developed consolidated
+itself in the territory of what is now Estonia and northern Latvia some
+3,000 years ago, and was introduced to what is now Finland over the Baltic
+and, in a version which came to be somewhat more heavily influenced by
+Slavic, up along the southern shore of the Gulf of Finland across the Neva,
+and upwards and outwards into the wildernesses of Karelia and the isthmus
+separating Lake Ladoga from Lake Ladoga. 
+
+Fifteen hundred years ago there was a continuum of dialects covering most
+of the southern part of the interior of present day Finland, Karelia, the
+shores of the Neva, the isthmus between Lakes Onega and Ladoga, the
+southern shores of the Gulf of Finland, modern Estonia, and extending well
+into modern Latvia (at least down to the River Dvina). The territory which
+is now Finland also had a considerable Germanic-speaking population on the
+Aaland Islands as well as in at least a few scattered settlements in the
+archipelagos and the western shore. In the northern parts of the country
+extending well down into modern Savo there was a small nomadic population,
+the ancestors of the modern Saami.
+
+Increased influx of Baltic-Finnic population across the Gulf of Finland,
+the Karelian isthmus, and, to a lesser extent, the forested areas of
+Karelia resulted in the consolidation of locally differentiated regional
+dialects. An influx of Scandinavian population during and after the
+Crusades influenced those dalects spoken in the western part of the
+cuontry, particularly those in the area of the medieval center Turku/Aabo,
+contact with and the gradual assimilation of the Saam-speaking population
+left their imprint on the dialects in the north, while increased cultural
+influence from speakers of Old Russian began to leave their imprint on the
+dialects of the east. With the severance of the Protestant West from the
+Orthodox East during the early 14th century (1323, treaty of Nötteborg, if
+I remember correctly) the prerequisites were lain down for the centipetal
+development of a relatively uniform set of dialects influenced to varying
+degrees by Swedish and Saami in the Protestant province of Finland, and the
+continued centrifugal development of a more hetrerogeneous set of dialects
+which eventually differentiated to such a degree that they have to be
+regarded as separate languages, i.e. Karelian, Olonetsian (Ludic), Vepsian,
+and Votian. The expansion of the Teutonic knights to the south in what are
+now Estonia and Latvia resulted in a weakening of contacts between southern
+Finland and northern Estonia, allowing for more differentiation, as well as
+in the erection of cultural and administrative boundaries which allowed the
+dialects of southern Estonia and Livonia to develop each in its own manner.
+
+At the time of the Reformation 'Finnish' was thus a group of closely allied
+byt distinct dialects. The Finnish bishop Mikael Agricola forged a written
+language based primarily on the heavily Suedicized speech of the Turku/Aabo
+area, but also incorporating a few more typically Finnish elements from the
+Häme and south-eastern dialects. As is well known, this written standard
+saw only limited use, and it was rejected during the 1820s (the period of
+the 'Battle of the Dialects') in favor of a compromise standard which was
+more oriented towards the Eastern dialects then popularly regarded as the
+source of Finnish culture and national identity. It took several
+generations before this standard - which either selects obviously eastern
+(e.g. tie 'road', yö 'night', suo 'swamp' or  than western tiä, yä, sua)
+with obviously western (e.g. pää 'head', maa 'land' rather than peä, moa)
+features, or allows a choice with sylistic differentiation (e.g. talossansa
+(W) or talossaan (E) 'in his house', lähdin (W) or läksin (E) 'I left') had
+established itself to the extent that it could seriously replace the
+dialects. Even today it is difficult to say precisely how successfully this
+artificial written standard and its spoken variants have been at replacing
+the long established historical dialects. 
+
+It cannot be emphasized too much that Finnish is spoken by people of
+several ethnic backgrounds. An experiment I have conducted in my classes
+several times over the years seems to indicate that only for a distinct
+minority of Finns were all eight great-grandparents Finnish speaking Finns,
+in the Helsinki region slightly more than half of the more than hundred
+students I've asked had four grandparents who were Finnish-speaking Finns.
+Finnish-speaking Swedes, Swedes, Russians, Estonians, Germans, Lapps,
+Tartars, Poles, Gypsies, not to mention the occasional immigrant from
+further afield have all contributed to the genetic makeup of the current
+Finnish population. There is no reason to assume that the gene-pool was
+'purer' at some earlier period, if anything, the evidence of loanwords from
+Baltic languages such as morsian 'bride', sisar 'sister', tytär 'daughter',
+heimo 'tribe, clan'; hammas 'tooth', reisi 'thigh' seem to indicate the
+reverse to be true. Ideas of some primitive Pekka Lehtinen leading a tribe
+of round-faced, blond-haired, blue-eyed proto-Finns from the Volga to the
+Baltics and through them to Finland are to be dismissed as unscientific
+nonsense.
+
+THUS. Finnish originated in Finland.
+
+BUT. The elements out of which its fundamental structure derives originate
+'in the East'.
+
+THE ORIGIN OF THE FINNO-UGRIC ELEMENTS IN FINNISH
+Efforts to trace the place where these elements orginated assume that such
+a place actually existed. We have to remember that posing the question in
+this way is very much a product of the romanticist inspired historiography
+of the 19th century, which viewed nations as having racial and linguistic
+continuity as well as some original homeland.
+
+If we accept these assumptions we can make some tentative conclusions as to
+where the original homeland would have been. The methods used include the
+study of cognates. The fact that the Finno-Ugric languages all share the
+same root for the tree called 'spruce', for example, would have us restrict
+our search to the area where the spruce (and mutatis mutandis the other
+flora and fauna, the names of which are common to all or most of the F-U
+languages) are or have been indigenous. 
+
+Another method would involve the study of loanwords. Without going into
+details, we can say that the two Mordvin languages (spoken over a large
+area around Saransk near the lower reaches of the Volga) have a lexical
+structure which appears to indicate that their borrowed words are
+superstratic (= have been taken from peoples who have passed through the
+area) rather than (substratic = taken from people who inhabited the area
+before they did). If, then, we entertain the idea that Mordvin is to
+Finno-Ugric like Italian is to Latin - the modern version of a language
+which has been spoken in the same area since time immemorial - then the
+area inhabited by the Mordvins would be approximately the place where the
+Finno-Ugric elements of Finnish (but not the Finns themselves) originated.
+
+However, the fact that we cannot find any substratum elements in Mordvin
+only means that there is no evidence of there having been a population in
+the area before the pre-Mordvins arrived.
+
+Thus, trivially, the area where Mordvin is now spoken seems to be the most
+likely candidate for the 'homeland' of where the original Finno-Ugric
+language was spoken.
+
+Let us assume that this is so.
+It is obvious that this 'original Finno-Ugrian languyage' was not the
+product of spontaneous generation.
+
+All evidence points to the fact that the Finno-Ugric languages and the
+Samoyedic languages - spoken much further to the north and east - are also
+related, they form the Uralic family of languages.
+
+We do not know enough about the prehistory of these languages to be able to
+reliably reconstruct their history. As I wrote in a previous posting, the
+fact that we are dealing with languages that share organizational
+strategies, seem to have been spoken by small populations which wandered,
+traded and freely intermingled with one another means that the entire
+question 'what do we mean when we say that two languages are geneologically
+affiliated?' takes assumes an entirely different aspect within the Eurasian
+context. 
+
+These questions have to be studied with scholarly objectivity, and any
+findings have to be evaluated in the light of new facts. Regarding the
+pained expressions one often sees on the faces of Finns when the question
+of the Asian origin of Finnish is discussed, I'd like to remind those of
+you who have stuck it out to this point of the fate of the Hungarian
+linguists J. Gyarmathyi and M. Sajnovics. Gyarmathyi spent a year in
+Lapland and, having nothing better to do, he learned Saami. He discovered
+that the resemblences between Hungarian and Saami were so striking that
+they could not be the result of chance. He wrote a book about his findings
+- inappropariately titled 'Demonstratio. Idioma ungarorum et lapponum idem
+esse' ('A demonstration that that the language of the Hungarians and of the
+Lapps is the same'). The Hungarians regarded such a claim as so outrageous
+('Es stinkt nach Fischtran') that they refused to publish it, and poor
+Sajnovics had to have it printed in Copenhagen in 1770. Sajnovic, who
+supplemented Gyarmathi's findings with systematic comparisons of phonology,
+morphology, and semantics, published a more modestly entitled
+'Affinitas...' ('The Affinity of the Hungarian and Finnish Languages') in
+1799. The book was was hostily received, and in his obituary he was said to
+have done his country a greater service by having introduced two strains of
+potato than by having demonstrated beyond any doubt that Hungarian,
+Finnish, Saami and numerous minor tongues spoken in the depths of Russia
+were related.
+
+So, I'd like to stop here, but the history of the basic elements of Finnish
+obviously extends back a long time before the (possible) settlement of a
+tribe of neolithic nomads along the uninhabited shores of the Volga. The
+history of a people and the history of a language are intertwined, but
+nevertheless distinct. As far as the history of the basic vocabulary and
+structural organization of Finnish goes, all available evidence points
+towards the northeast...
+
+
+(This essay was written off the top of my head, but the material can be
+found in 'Jazyki narodov SSSR', volume III (1966), V Lytkin (ed.) 'Vvedenie
+v finno-ugorskoe jazykoznanie', 1970 ff. vol. 1-3, A. Laanest,
+'Sissejuhatus läänemeresoome keeltesse',1980, B. Collinder, Survey of the
+Uralic Languages, 1960, A. Anttila, An Introduction to Historical and
+Comparative Linguistics, 1974, E. Itkonen Kieli ja sen tutkimus,1966, E.
+Kivikoski, Suomen esihistoria, 196?, T. Vuorela The Finno-Ugric Peoples,
+196?, Gy. Decsy 'Einfuerung in die finnisch-ugrische Sprachwissenschaft,
+196?, L. Hakulinen Suomen kielen rakenne ja kehtys 1980, and T. Sebeok,
+Portraits of Linguists, 196?.)
+
+With best regards,
+Eugene Holman
+University of Helsinki
+
+
+Article 37084 of soc.culture.nordic:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!news.csc.fi!news.helsinki.fi!porsumac15.pc.helsinki.fi!user
+From: holman@katk.helsinki.fi (Eugene Holman)
+Newsgroups: soc.culture.nordic
+Subject: Re: Is Finnish...
+Followup-To: soc.culture.nordic
+Date: Mon, 26 Sep 1994 22:58:43 +0200
+Organization: University of helsinki
+Lines: 32
+Message-ID: <holman-260994225844@porsumac15.pc.helsinki.fi>
+References: <kurt.780330538@bavur> <366gm0$isl@tukki.cc.jyu.fi> <holman-260994211310@porsusc-15.pc.helsinki.fi>
+NNTP-Posting-Host: porsumac15.pc.helsinki.fi
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+In article <holman-260994211310@porsusc-15.pc.helsinki.fi>,
+holman@katk.helsinki.fi (Eugene Holman) wrote:
+
+Changing the clock last night has taxed my attention span. 
+The paragraph about Sajnovics and Gyarmathi should have read:
+
+ I'd like to remind those of
+> you who have stuck it out to this point of the fate of the Hungarian
+> linguists J. Gyarmathyi and M. Sajnovics. Gyarmathyi spent a year in
+> Lapland and, having nothing better to do, he learned Saami. He discovered
+> that the resemblences between Hungarian and Saami were so striking that
+> they could not be the result of chance. He wrote a book about his findings
+> - inappropariately titled 'Demonstratio. Idioma ungarorum et lapponum idem
+> esse' ('A demonstration that that the language of the Hungarians and of the
+> Lapps is the same'). The Hungarians regarded such a claim as so outrageous
+> ('Es stinkt nach Fischtran') that they refused to publish it, and poor
+> Sajnovics had to have it printed in Copenhagen in 1770. GYARMATHI, who
+> supplemented SAJNOVICS's findings with systematic comparisons of phonology,
+> morphology, and semantics, published a more modestly entitled
+> 'Affinitas...' ('The Affinity of the Hungarian and Finnish Languages') in
+> 1799. The book was hostily received, and in his obituary he was said to
+> have done his country a greater service by having introduced two strains of
+> potato than by having demonstrated beyond any doubt that Hungarian,
+> Finnish, Saami and numerous minor tongues spoken in the depths of Russia
+> were related.
+> 
+>
+Sorry about the slip-up,
+
+Regards,
+Eugene Holman
+University of Helsinki
+
+

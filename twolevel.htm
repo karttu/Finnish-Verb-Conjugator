@@ -1,0 +1,627 @@
+<HTML><HEAD>
+<TITLE>Few Questions and Answers about the TWO-LEVEL MORPHOLOGY</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<H3>Few Questions and Answers about the Two-Level Morphology</H3>
+
+Here's my old inquiry concerning Kimmo Koskenniemi's dissertation
+which I posted to the Finnish newsgroup <CODE>sfnet.tiede.kielitiede</CODE>
+(<CODE>sfnet.science.linguistics</CODE>) in the summer of 1994, followed by
+the replies I got. My translation to English runs on the right hand side
+of the original text. BTW, I am not related to Lauri Karttunen
+mentioned in the replies.
+<P>
+Note that my old email address <CODE>karttu@mits.mdata.fi</CODE>
+doesn't work anymore, but you can still <A HREF="../email/howto.htm">mail me</A>.
+
+<P>
+
+<HR>
+<PRE><TT>
+Article 76 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!mits.mdata.fi!not-for-mail
+From: karttu@mits.mdata.fi (Antti Karttunen)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: Kimmo Koskenniemi: TWO-LEVEL MORPHOLOGY
+Date: 13 Jun 1994 20:41:28 +0300
+Organization: MITS, Helsinki, Finland
+Lines: 51
+Message-ID: &LT;2ti5o8$21i@mits.mdata.fi&GT;
+NNTP-Posting-Host: mits.mdata.fi
+</TT></PRE>
+
+<P>
+<TABLE><TR><TD VALIGN=TOP>
+Olen selaillut viime päivinä Kimmo Koskenniemen väitöskirjaa
+<CITE>"TWO-LEVEL MORPHOLOGY: A General Computational Model for Word-Form
+Recognition and Production"</CITE>, joka on julkaistu jo vuonna 1983
+Helsingin yliopiston yleisen kielitieteen laitoksen toimesta
+(ISBN 951-45-3201-5 ja ISSN 0355-7170).
+</TD>
+
+<TD VALIGN=TOP>
+The last few days I have been reading the dissertation of Kimmo
+Koskennimi, <CITE>"TWO-LEVEL MORPHOLOGY: A General Computational Model
+for Word-Form Recognition and Production"</CITE>, which was
+published in 1983 by the Department of General Linguistics of
+the University of Helsinki.
+</TD>
+</TR>
+
+<TR><TD VALIGN=TOP>Muutamia mieleen nousseita kysymyksiä:<P></TD>
+    <TD VALIGN=TOP>Few questions that have occurred to me:<P></TD></TR>
+
+<TR>
+<TD VALIGN=TOP>
+1) Onko kirjassa esitetty tekniikka edelleenkin 'state-of-art'
+   taivutettavien kielten (erityisesti suomen) sanojen parsimisessa
+   ja tuottamisessa? Vai onko tämän jälkeen esitetty parempia malleja,
+   tai edes parannuksia tähän malliin?
+   Kuinka paljon löytyy tätä mallia käyttäviä 'tosielämän' sovellutuksia?
+<P>
+</TD>
+<TD VALIGN=TOP>
+1) Is the technique introduced in the book still 'state-of-art'
+   for parsing and producing words of the inflected languages
+   (especially Finnish)? Has there been any better models published
+   since then, or even any improvements to this model?
+   How many "real-life" applications are there that use this model?
+<P>
+</TD>
+</TR>
+
+<TR><TD VALIGN=TOP>
+2) Onko vielä onnistuttu luomaan algoritmia, joka automaattisesti
+   kääntäisi RPE:itä (Regular Pair Expressions) käyttävät
+   kaksitasosäännöt (two-level rules) vastaaviksi tilakoneiksi
+   (FSM, Finite State Machine)?
+<P>
+</TD><TD VALIGN=TOP>
+2) Has anybody accomplished to create an algorithm which would
+   automatically translate the two-level rules that use RPE's 
+   (Regular Pair Expressions) to the corresponding state machines?
+<P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+3) Miksi nuo kaksitasosäännöt <EM>pitää</EM> kääntää tilakoneiksi?
+   Olisiko niiden suora tulkkaaminen paljonkin hitaampaa?
+   Tai voitaisiinko ne kääntää joksikin muiksi, helpommin
+   suoritettaviksi lausekkeiksi?
+<P>
+</TD><TD VALIGN=TOP>
+3) Why the two-level rules <EM>have to</EM> be translated to state machines?
+   Would it be much slower to interpret them directly?
+   Or would it be possible to translate them to any other kind
+   of expressions, which might be evaluated more easily?
+<P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+4) Mihin muihin kieliin tätä mallia on sovellettu? Joku mainitsi
+   ranskan. Entä espanja? Koska malli mahdollistaa myös tavujen
+   määrän laskemisen, niin painollisen tavun paikan löytämisen
+   ei pitäisi tuottaa ylitsepääsemättömiä vaikeuksia?
+   (Hieman hankalaa se kyllä voi olla...)
+   Ainakin espanjan kielen ortografian tietyt erikoisuudet voidaan
+   helposti esittää kaksitasosäännöillä (esim. sen että <CODE>/k/</CODE>
+   äänteellä on kaksi allograafia, <CODE>'qu'</CODE> <CODE>e</CODE>:n ja
+   <CODE>i</CODE>:n edessä, <CODE>'c'</CODE> kaikissa muissa
+   tapauksissa). Toisaalta, onko järkeä sotkea ortografiaa
+   morfologiseen malliin?
+<P>
+</TD><TD VALIGN=TOP>
+4) What other languages has this model been applied to? Somebody
+   mentioned French. What about Spanish? Because the model also
+   allows counting of the syllables, the location of the accented
+   syllable wouldn't be too hard to find?
+   (It might not be so easy, however...)
+   At least it would be easy to represent certain peculiarities of the
+   Spanish orthography with two-level rules (e.g. that the sound
+   <CODE>/k/</CODE> has two allographs, <CODE>'qu'</CODE> in the
+   front of <CODE>e</CODE> and <CODE>i</CODE>, and <CODE>'c'</CODE> in
+   all other cases). On the other hand, is it sensible to mix
+   orthography with the morphologic model?
+<P>
+</TD></TR>
+<TR><TD VALIGN=TOP>Terveisin,</TD><TD VALIGN=TOP>Regards,</TD></TR>
+</TABLE>
+<PRE>
+
+Antti Karttunen / karttu@mits.mdata.fi / $(B%"%s%C%F%#!!%+%k%C%H%%%M%s(B
+"Joku on jo oksentanut, ja sen on hyvä olla, mutta toinen vasta alkaa
+ antaa ylen." - V. Erofejev, Moskova - Petushki
+</PRE>
+
+<HR>
+<PRE>
+Article 77 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.csc.fi!news.helsinki.fi!news.helsinki.fi!jpiitula
+From: jpiitula@tikkanen.helsinki.fi (Jussi Piitulainen)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: Re: Kimmo Koskenniemi: TWO-LEVEL MORPHOLOGY
+Date: 14 Jun 1994 10:59:06 GMT
+Organization: University of Helsinki, Finland
+Lines: 84
+Message-ID: &LT;JPIITULA.94Jun14135907@tikkanen.helsinki.fi&GT;
+References: &LT;2ti5o8$21i@mits.mdata.fi&GT;
+NNTP-Posting-Host: tikkanen.helsinki.fi
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+In-reply-to: karttu@mits.mdata.fi's message of 13 Jun 1994 20:41:28 +0300
+
+In article &LT;2ti5o8$21i@mits.mdata.fi&GT; karttu@mits.mdata.fi (Antti Karttunen) writes:
+
+From: karttu@mits.mdata.fi (Antti Karttunen)
+Date: 13 Jun 1994 20:41:28 +0300
+</PRE>
+
+<TABLE>
+<TR><TD VALIGN=TOP>
+<CITE>
+Olen selaillut viime päivinä Kimmo Koskenniemen väitöskirjaa
+"TWO-LEVEL MORPHOLOGY: A General Computational Model for Word-Form
+Recognition and production".<P>
+
+1) Onko kirjassa esitetty tekniikka edelleenkin 'state-of-art'
+   taivutettavien kielten (erityisesti suomen) sanojen parsimisessa
+   ja tuottamisessa? Vai onko tämän jälkeen esitetty parempia malleja,
+   tai edes parannuksia tähän malliin?
+   Kuinka paljon löytyy tätä mallia käyttäviä 'tosielämän' sovellutuksia?
+</CITE><P>
+</TD><TD VALIGN=TOP>
+<CITE>
+The last few days I have been reading the dissertation of Kimmo
+Koskennimi, "TWO-LEVEL MORPHOLOGY: A General Computational Model
+for Word-Form Recognition and production".<P>
+
+1) Is the technique introduced in the book still 'state-of-art'
+   for parsing and producing words of the inflected languages
+   (especially Finnish)? Has there been any better models published
+   since then, or even any improvements to this model?
+   How many "real-life" applications are there that use this model?
+</CITE><P>
+</TD></TR>
+
+<TR><TD VALIGN=TOP>
+Onhan sitä kehitetty.  Luulen kuitenkin, että Helsingin yliopistossa
+käytettävät jäsentimet ovat edelleen olennaisesti sitä samaa
+teknologiaa.  En ole varma tästä.
+<P>
+</TD><TD VALIGN=TOP>
+Yes, the model has been developed further. However, I think that the
+parsers used in the Helsinki University are essentially based on the
+same technology. I am not sure about this.
+<P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+Aiheesta on kirja tai pari, aika uusia.  Itse en ole lukenut.  Voin
+raapia noita viitteitä esiin aika helposti, jos olet kiinnostunut.
+<P>
+</TD><TD VALIGN=TOP>
+There exists a book or two about the subject, quite new ones. I haven't
+read them myself. I can give references to you if you are interested.
+<P>
+</TD></TR>
+
+<TR><TD VALIGN=TOP>
+Kun kaksitasokoneet tulkitaan transduktoreiksi, niille voidaan tehdä
+toimitus nimeltä kompositio.  Tämä on se kilpaileva malli, jossa
+automaatit ovat "peräkkäin" eivätkä "rinnakkain", kuten Koskenniemen
+järjestelmässä.  Transduktoriteknologiaa on kehitetty edelleen
+(käsittääkseni ainakin Ron Kaplan ja Lauri Karttunen ovat
+kehittäneet).  Jossain ACL:n kokouksessa oli äskettäin (amb 1992 1993)
+artikkeli aiheesta.
+<P>
+</TD><TD VALIGN=TOP>
+When two-level rules are interpreted as transductors, it is possible
+to apply a procedure called composition to them. This is the competing
+model where the automata are organized "serially", not "in parallel" as
+with the Koskenniemi's system. The transductor technology has been
+developed further (I think that at least by Ron Kaplan and Lauri Karttunen).
+There was recently an article about the subject in a meeting of ACL,
+when, I don't remember exactly (amb 1992 1993).
+<P>
+</TD></TR>
+
+<TR><TD VALIGN=TOP>
+En tiedä, kuka niitä käyttää yliopiston ulkopuolella, mutta useita
+aidon tekstin morfologiseen jäsentämiseen kykeneviä koneita on
+olemassa.  Suurin työ on epäilemättä kattavan leksikon laatiminen.
+<P>
+</TD><TD VALIGN=TOP>
+I don't know who uses them outside of the University, but there
+exists several machines capable of morphologically parsing
+authentic/real-life text. The biggest job is without doubt to compile
+an extensive lexicon.
+<P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+<CITE>
+2) Onko vielä onnistuttu luomaan algoritmia, joka automaattisesti
+   kääntäisi RPE:itä (Regular Pair Expressions) käyttävät
+   kaksitasosäännöt (two-level rules) vastaaviksi tilakoneiksi
+   (FSM, Finite State Machine)?
+</CITE><P>
+</TD><TD VALIGN=TOP>
+<CITE>
+2) Has anybody accomplished to create an algorithm which would
+   automatically translate the two-level rules that use RPE's 
+   (Regular Pair Expressions) to the corresponding state machines?
+</CITE><P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+Sellainen on.  Ongelmallinen oli kai ainoastaan se sääntötyyppi, jossa
+parin sallitaan esiintyä jossain useasta vaihtoehtoisesta ympäristöstä
+<BR>(<CODE>x:y =&GT; a:b _ y:0 d:0 ; x:0 _</CODE>,<BR>
+tai jotain sellaista). Sääntö pitää
+kääntää yhdeksi koneeksi, ja käännösprosessissa eri ympäristöjen
+käännökset pitää pitää "samassa tahdissa" tavalla, jota ei voine pitää
+triviaalina.  Menetelmän idean kehitti Ron Kaplan; en ole varma, onko
+sitä varsinaisesti julkaistu, mutta kirjallinen esitys on olemassa.
+(Toivottavasti tämä meni oikein.  En ole perehtynyt yksityiskohtiin.)
+<P>
+</TD><TD VALIGN=TOP>
+There exists one. Problems arise only with those rules where a pair
+is allowed to exist in more than one alternative environment
+<BR>(<CODE>x:y =&GT; a:b _ y:0 d:0 ; x:0 _</CODE>,<BR>
+or something like that).  One rule has
+to be translated to one machine, and in the translation process the
+translations of the different environments have to be kept "in
+the same pace" with a way which is not exactly trivial.
+The method was developed by Ron Kaplan; I am not sure whether it
+has actually been published, but there exists a written description of it.
+(I hope this is correct. I am not familiar with the details).
+<P>
+</TD></TR>
+
+<TR><TD VALIGN=TOP>
+Computational Linguistics -lehdessä vuodelta noin 1991 tai 1992
+numerossa se-ja-se on Graeme Ritchien artikkeli kaksitasokuvausten
+tuottamista kieliluokista.  Siinä on tekstiä myös Kaplanin työstä.
+<P></TD><TD VALIGN=TOP>
+Graeme Ritchie has an article about the classes of languages
+produced by two level mappings in the Computational Linguistics
+magazine, circa 1991 or 1992. There's also some text about
+the work of Kaplan.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+3) Miksi nuo kaksitasosäännöt pitää kääntää tilakoneiksi?
+   Olisiko niiden suora tulkkaaminen paljonkin hitaampaa?
+   Tai voitaisiinko ne kääntää joksikin muiksi, helpommin
+   suoritettaviksi lausekkeiksi?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+3) Why the two-level rules have to be translated to state machines?
+   Would it be much slower to interpret them directly?
+   Or would it be possible to translate them to any other kind
+   of expressions, which might be evaluated more easily?
+</CITE>
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+Pointti automaattien käytössä lienee juuri se, että se on erittäin
+helppoa ja nopeaa, kunhan automaatti saadaan ensin rakennetuksi.
+Helpommin suoritettavaa esitysmuotoa tuskin on.
+<P></TD><TD VALIGN=TOP>
+The whole idea of using the automata is in that it is very easy
+and fast to use them after they have been first constructed.
+There's probably no other formulation which would be
+easier to evaluate.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+Muiden esitysmuotojen käyttöä saattaisi motivoida automaattien
+mahdollisesti vaatima paljo tila.  Tätäkin helpottaa mahdollisuus
+esittää kone useana pienenä automaattina yhden suuren sijasta.  Tätä
+taas vaikeuttaa se, että vaihtoehtoisia ympäristöjä sallivia sääntöjä
+ei taideta osata kääntää kuin yhdeksi automaatiksi.
+<P></TD><TD VALIGN=TOP>
+It might be sensible to use other formulations because of the possibly
+high memory requirements of the automata. That is made easier by the
+possibility to formulate a machine (FSM) as several small automata
+instead of one large automaton. On the other hand, this is hard because 
+rules which allow several alternative environments probably cannot
+be translated to more than just a single automaton.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+4) Mihin muihin kieliin tätä mallia on sovellettu? Joku mainitsi
+   ranskan. Entä espanja?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+4) What other languages has this model been applied to? Somebody
+   mentioned French. What about Spanish?
+</CITE>
+<P></TD></TR>
+<TR><TD VALIGN=TOP>
+<A NAME="LANGUAGES1">
+Suomi, ruotsi, englanti, venäjä, saksa, latina, ...  Nämä ovat kai
+kaikki varsin kattavia kuvauksia.
+</A>
+<P></TD><TD VALIGN=TOP>
+<A HREF="#LANGUAGES2">
+Finnish, Swedish, English, Russian, German, Latin, ...</A> Probably all
+of these are very extensive representations.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+   Toisaalta, onko järkeä sotkea ortografiaa morfologiseen malliin?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+   On the other hand, is it sensible to mix orthography with the
+   morphologic model?
+</CITE>
+<P></TD></TR>
+<TR><TD VALIGN=TOP>
+Kirjoitettua tekstiähän nuo käytännössä jäsentävät.
+<P></TD><TD VALIGN=TOP>
+Well, it's written text that those (models) are actually parsing.
+<P></TD></TR>
+</TABLE>
+
+<PRE>
+--
+Jussi Piitulainen
+jpiitula@ling.helsinki.fi
+
+<HR>
+Article 78 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.csc.fi!news.helsinki.fi!news.helsinki.fi!ptapanai
+From: ptapanai@utrio.helsinki.fi (Pasi Tapanainen)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: Re: Kimmo Koskenniemi: TWO-LEVEL MORPHOLOGY
+Date: 14 Jun 1994 11:17:55 GMT
+Organization: University of Helsinki, Finland
+Lines: 81
+Message-ID: &LT;PTAPANAI.94Jun14141755@utrio.helsinki.fi&GT;
+References: &LT;2ti5o8$21i@mits.mdata.fi&GT;
+NNTP-Posting-Host: utrio.helsinki.fi
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+In-reply-to: karttu@mits.mdata.fi's message of 13 Jun 1994 20:41:28 +0300
+</PRE>
+
+<TABLE><TR><TD VALIGN=TOP>Kannattaa tutustua myös:<P></TD>
+<TD VALIGN=TOP>It's worth reading also:<P></TD></TR>
+<TR><TD COLSPAN=2>
+Lauri Karttunen, Kimmo Koskenniemi, Ronald Kaplan. A Compiler for
+two-level phonological Rules.  In Dalrymple et al.  Tools for
+Morphological Analysis.  Center for the Study of Language and
+Information.  Stanford University.  Palo Alto.  1987.
+<P></TD></TR>
+<TR><TD COLSPAN=2>
+Lauri Karttunen, Ronald Kaplan, Annie Zaenen.  Two-level morphology
+with Composition.  In proceedings of COLING-92.  Vol I. 141-48.
+Nantes, France. 1992.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+1) Onko kirjassa esitetty tekniikka edelleenkin 'state-of-art'
+   taivutettavien kielten (erityisesti suomen) sanojen parsimisessa
+   ja tuottamisessa?
+</CITE><P>
+</TD><TD VALIGN=TOP>
+<CITE>
+1) Is the technique introduced in the book still 'state-of-art'
+   for parsing and producing words of the inflected languages
+   (especially Finnish)?
+</CITE><P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+Perusajatukseltaan taitaa olla.
+<P></TD><TD VALIGN=TOP>
+By its basic principles, it probably is.
+<P></TD></TR>
+<TR><TD VALIGN=TOP>
+Näkyy olevan seuraavassa Coling-konferenssissa (elokuussa Kyotossa)
+artikkeli: A Two-level morphological analysis of Korean. (Kim et al.)
+<P></TD><TD VALIGN=TOP>
+There seems to be an article in the next Coling conference (August
+in Kyoto): A Two-level morphological analysis of Korean. (Kim et al.)
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+Vai onko tämän jälkeen esitetty parempia malleja, tai edes parannuksia
+tähän malliin?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+Has there been any better models published since then, or even any
+improvements to this model?
+</CITE>
+<P></TD></TR>
+<TR><TD COLSPAN=2>
+Karttunen et al. Coling-92.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+    Kuinka paljon löytyy tätä mallia käyttäviä 'tosielämän' sovellutuksia?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+   How many "real-life" applications are there that use this model?
+</CITE>
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>Useissa tekstinkäsittelyohjelmissa (?).<P></TD>
+<TD VALIGN=TOP>In many word processing programs (?).<P></TD></TR>
+<TR><TD VALIGN=TOP>
+<CITE>
+2) Onko vielä onnistuttu luomaan algoritmia, joka automaattisesti
+   kääntäisi RPE:itä (Regular Pair Expressions) käyttävät
+   kaksitasosäännöt (two-level rules) vastaaviksi tilakoneiksi
+   (FSM, Finite State Machine)?
+</CITE><P>
+</TD><TD VALIGN=TOP>
+<CITE>
+2) Has anybody accomplished to create an algorithm which would
+   automatically translate the two-level rules that use RPE's 
+   (Regular Pair Expressions) to the corresponding state machines?
+</CITE><P>
+</TD></TR>
+<TR><TD VALIGN=TOP>
+En ole aivan varma ymmärsinkö oikein, mitä piti kääntää miksi.
+Kääntäjiä on olemassa.  Syöte on sääntö, esim.
+<BR><CODE>k:j &LT;=&GT; [l | r | h] _ e: [Cons | #:];</CODE><BR>
+Tämä tarkoittaa, että k muuttuu j:ksi, jos ennen on on l, r tai h ja
+perässä e ja konsonantti (tai sana loppuu).  Tulos on FST
+(transduktori, transductor, transducer)
+<P></TD><TD VALIGN=TOP>
+I am not sure whether I understood correctly what has to be translated
+to what. There exists translators. The input (for the translator) is
+a rule, e.g.
+<BR><CODE>k:j &LT;=&GT; [l | r | h] _ e: [Cons | #:];</CODE><BR>
+This means that k is changed to j, if it is preceded by l, r or h
+and it is followed by e and consonant (or the word ends).
+The result is a FST (transductor, transducer).
+<P></TD></TR>
+<TR><TD VALIGN=TOP>
+<CITE>
+3) Miksi nuo kaksitasosäännöt pitää kääntää tilakoneiksi?
+   Olisiko niiden suora tulkkaaminen paljonkin hitaampaa?
+   Tai voitaisiinko ne kääntää joksikin muiksi, helpommin
+   suoritettaviksi lausekkeiksi?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+3) Why the two-level rules have to be translated to state machines?
+   Would it be much slower to interpret them directly?
+   Or would it be possible to translate them to any other kind
+   of expressions, which might be evaluated more easily?
+</CITE>
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+Nopea suoritusaika, selkeä matemaattinen malli jossa on helppo tehdä
+erilaisia operaatioita (ja silti vielä tiedetään mistä on kyse).  Eikä
+kääntäminen ole erityisen vaikeaa.
+<P></TD><TD VALIGN=TOP>
+Fast processing time, a clear mathematic model where it is easy
+to do all kinds of operations (and even after that it's clear what
+is going on). And it's not very hard to translate them.
+<P></TD></TR>
+
+<TR><TD VALIGN=TOP>
+<CITE>
+4) Mihin muihin kieliin tätä mallia on sovellettu? Joku mainitsi
+   ranskan. Entä espanja?
+</CITE>
+<P></TD><TD VALIGN=TOP>
+<CITE>
+4) What other languages has this model been applied to? Somebody
+   mentioned French. What about Spanish?
+</CITE>
+<P></TD></TR>
+<TR><TD VALIGN=TOP>
+<A NAME="LANGUAGES2">
+Tietääkseni, ainakin: suomi, ruotsi, venäjä, saksa, englanti, ranska,
+viro, tanska, suahili, baski, turkki, japani, korea, mari, ...
+</A>
+<P></TD><TD VALIGN=TOP>
+According to my knowledge, at least: 
+<A HREF="#LANGUAGES1">Finnish, Swedish, Russian, German,
+English, French, Estonian, Danish, Suahili, Basque, Turkish, Japanese,
+Korean, Mari, ...</A>
+<P></TD></TR>
+</TABLE>
+
+<PRE>
+ Terveisin,
+
+-- Pasi
+
+<HR>
+Article 79 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.csc.fi!news.helsinki.fi!not-for-mail
+From: silvonen@cc.Helsinki.FI (Mikko Silvonen)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: Re: Kimmo Koskenniemi: TWO-LEVEL MORPHOLOGY
+Date: 14 Jun 1994 17:21:16 +0300
+Organization: Suomen Keisarillinen Aleksanterin-Yliopisto
+Lines: 20
+Message-ID: &LT;2tkecs$fkk@karhu.Helsinki.FI&GT;
+References: &LT;2ti5o8$21i@mits.mdata.fi&GT;
+NNTP-Posting-Host: karhu.helsinki.fi
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+
+Viestissä &LT;2ti5o8$21i@mits.mdata.fi&GT; karttu@mits.mdata.fi (Antti
+Karttunen) kyselee kaksitasomallista:
+</PRE>
+
+<TABLE>
+<TR><TD VALIGN=TOP>
+<CITE>
+1) Onko kirjassa esitetty tekniikka edelleenkin 'state-of-art'
+   taivutettavien kielten (erityisesti suomen) sanojen parsimisessa
+   ja tuottamisessa? Vai onko tämän jälkeen esitetty parempia malleja,
+   tai edes parannuksia tähän malliin?
+   Kuinka paljon löytyy tätä mallia käyttäviä 'tosielämän' sovellutuksia?
+</CITE><P>
+</TD><TD VALIGN=TOP>
+<CITE>
+1) Is the technique introduced in the book still 'state-of-art'
+   for parsing and producing words of the inflected languages
+   (especially Finnish)? Has there been any better models published
+   since then, or even any improvements to this model?
+   How many "real-life" applications are there that use this model?
+</CITE><P>
+</TD></TR>
+
+<TR><TD VALIGN=TOP>
+Viime maaliskuussa järjestettiin Erlangenissa maailmanmestaruuskisat
+saksan kielen morfologisten analysaattorien kesken, ja voittajaohjelma
+(jota - *kröhöm* - olin itse mukana tekemässä) noudatti kaksitasomallia,
+joten eiköhän malli ole vielä ihan käypää tavaraa.
+<P></TD><TD VALIGN=TOP>
+Last March the world championship competition was held in Erlangen between
+the morphologic analysators of the German language, and the winning
+program (in design of which I participated) was based on the two-level
+model, so I assume that it is still very current.
+<P></TD></TR>
+<TR><TD VALIGN=TOP>
+Mallia on sovellettu ainakin useissa tekstinkäsittely- ja
+indeksointiohjelmissa.
+<P></TD><TD VALIGN=TOP>
+The model has been utilized at least in several word processing and
+indexing programs.
+<P></TD></TR>
+</TABLE>
+
+<PRE>
+-- 
+Mikko Silvonen             ! "Nykyisyyden lähin suunta on lähin
+Mikko.Silvonen@Helsinki.FI !  tulevaisuus, joka on kaukaisinta
+Universitas Helsingiensis  !  menneisyyttä." (Kauko Nieminen)
+</PRE>
+<HR>
+
+<H3>Links</H3>
+<UL>
+<LI><A HREF="taivalgo.txt">A few more old articles</A> from
+the newsgroup <CODE>sfnet.keskustelu.kielitiede</CODE> (In Finnish).
+<LI><A HREF="holman1.txt">An article by Eugene Holman</A>
+from 1994 in <CODE>soc.culture.nordic</CODE> about the
+similarities between the Finnish and Altaic languages, as well as about
+the origins of the Finnish language.
+<LI><A HREF="http:../index.html">Back to my main page.</A>
+</UL>
+
+<P>
+</BODY>
+</HTML>
+

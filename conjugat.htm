@@ -1,0 +1,221 @@
+<HTML><HEAD>
+<TITLE>CONJUGAT - Finnish Verb Conjugation Routines</TITLE>
+</HEAD>
+<BODY BGCOLOR="FFFFFF">
+<B>New URL:</B> <A HREF="http://www.iki.fi/~kartturi/conjugat/conjugat.htm">http://www.iki.fi/~kartturi/conjugat/conjugat.htm</A>
+
+<H3>CONJUGATE - Finnish verb conjugation routines in C and C++</H3>
+<B>Copyright (C) (1993-1997) by Antti Karttunen.</B>
+
+<DL><DT><B>Change 19. February 2003:</B>
+<DD><BR>Now also the source code uses <STRONG>&auml;</STRONG> instead of <STRONG>{</STRONG> (left brace)
+and <STRONG>&ouml;</STRONG> instead of <STRONG>|</STRONG> (Unix pipe-character).
+</DL>
+
+<FORM ACTION="conjugat.cgi" METHOD=GET>
+<H4>Verb Pattern</H4>
+<INPUT TYPE=TEXT NAME=pattern>
+<BR>
+Examples:
+<BR> <B>hyp*</B> All verbs beginning with the letters hyp-
+<BR> <B>*mAtA</B> All verbs ending either with the letters -mata or
+-m&auml;t&auml;
+<BR> <B>????AA</B> All verbs whose infinitive is six letters long and ends
+either with -aa or -&auml;&auml;
+
+<H4>Verb Classes</H4>
+<PRE><TT>
+<SELECT NAME=CLASSES>
+ <OPTION VALUE=0>CL NSS GRADATION? B/F/L/D Examples (Leave this on top to select from all classes)
+ <OPTION VALUE=1> 1   1 G L    ahavoitua, ehty&auml;
+ <OPTION VALUE=2> 2   1 @ L    ammua, edisty&auml;
+ <OPTION VALUE=3> 3   2 G B    aloittaa
+ <OPTION VALUE=4> 4   2 @ B    ajastaa
+ <OPTION VALUE=5> 5   2 G F    eitt&auml;&auml;
+ <OPTION VALUE=6> 6   2 @ F    el&auml;&auml;
+ <OPTION VALUE=7> 7   3 G L    huutaa, l&ouml;yt&auml;&auml;, pyyt&auml;&auml;
+ <OPTION VALUE=8> 8  43 G D    taitaa, tiet&auml;&auml;
+ <OPTION VALUE=9> 9   4 G D    hoitaa, kiit&auml;&auml;
+<OPTION VALUE=10>10   5 G D    imelt&auml;&auml;, jokeltaa
+<OPTION VALUE=11>11   6 G D    ahertaa, hykert&auml;&auml;
+<OPTION VALUE=12>12   7 G L    sortaa
+<OPTION VALUE=13>13   8 G B    alentaa (Also NSS class 42)
+<OPTION VALUE=14>14   8 G F    koelent&auml;&auml; (Also NSS class 42)
+<OPTION VALUE=15>15   9 G B    ahtaa, ajaa
+<OPTION VALUE=16>16  10 G B    auttaa, haastaa
+<OPTION VALUE=17>17  11 G B    paistaa, taittaa, virkkaa
+<OPTION VALUE=18>18  12 G B    kaartaa, saartaa
+<OPTION VALUE=19>19  13 G D    hakea, ime&auml;, potea, p&auml;te&auml; (NSS 15)
+<OPTION VALUE=20>20  14 G B    tuntea
+<OPTION VALUE=21>21  16 G F    l&auml;hte&auml;
+<OPTION VALUE=22>22  17 @ D    aistia, etsi&auml;, nuuhkia
+<OPTION VALUE=23>23  17 G D    ahnehtia, ehti&auml;, pyyhki&auml;
+<OPTION VALUE=24>24  18 @ L    analysoida, naida
+<OPTION VALUE=25>25  30 @ L    ep&auml;r&ouml;ida, luennoida
+<OPTION VALUE=26>26  19 @ L    saada (NSS 19), myyd&auml; (20), juoda (21), vied&auml; (22)
+<OPTION VALUE=27>27  23 @ F    k&auml;yd&auml;
+<OPTION VALUE=28>28  44 G D    antautua, eheyty&auml;
+<OPTION VALUE=30>30  33 G F    n&auml;hd&auml;, tehd&auml;
+<OPTION VALUE=33>33  24 G B    rangaista, vavista
+<OPTION VALUE=34>34  24 @ B    haista, hurista
+<OPTION VALUE=35>35  45 @ F    seist&auml; (defective verb)
+<OPTION VALUE=36>36  24 @ F    aivopest&auml;, helist&auml;
+<OPTION VALUE=37>37  25 @ L    kuulla, niell&auml;
+<OPTION VALUE=38>38  26 @ L    purra, surra
+<OPTION VALUE=39>39  27 @ L    menn&auml;, panna
+<OPTION VALUE=40>40  28 @ B    aavistella, ajella
+<OPTION VALUE=41>41  28 G B    ajatella
+<OPTION VALUE=42>42  28 @ F    elell&auml;, elvistell&auml;
+<OPTION VALUE=43>43  28 G F    esitell&auml;
+<OPTION VALUE=44>44  29 @ B    halkeilla
+<OPTION VALUE=45>45  29 @ F    enteill&auml;, varjonyrkkeill&auml;
+<OPTION VALUE=46>46  31 @ D    ansaita, iloita
+<OPTION VALUE=47>47  32 @ L    juosta, piest&auml;, sy&ouml;st&auml;
+<OPTION VALUE=48>48  34 G D    aueta, hapata, iljet&auml;
+<OPTION VALUE=49>49  34 @ D    aleta, enet&auml;
+<OPTION VALUE=50>50  35 G L    ahdata, ev&auml;t&auml; (Also NSS 40)
+<OPTION VALUE=51>51  35 @ L    arvata, her&auml;t&auml; (Also NSS 40)
+<OPTION VALUE=52>52  36 G D    aueta, iljet&auml;
+<OPTION VALUE=53>53  36 @ D    hirvet&auml;, katketa
+<OPTION VALUE=54>54  37 G D    l&auml;mmit&auml;
+<OPTION VALUE=55>55  37 @ D    h&auml;vit&auml;, levit&auml;
+<OPTION VALUE=56>56  38 G L    hiota, koota
+<OPTION VALUE=57>57  38 @ L    erota, l&ouml;h&ouml;t&auml;
+<OPTION VALUE=58>58  39 G L    kavuta, ry&ouml;pyt&auml;
+<OPTION VALUE=59>59  39 @ L    haluta, &auml;lyt&auml;
+<OPTION VALUE=60>60  25* @ B   olla (special case of NSS25)
+<OPTION VALUE=99>99 Select first verb from each class.
+</SELECT>
+</PRE></TT>
+<BR>
+<H4>Non-Finite Forms</H4>
+<PRE><TT>
+<SELECT NAME=MASK_FINITENESS>
+<OPTION VALUE=0x000>FOR FINITE FORMS - CHECK THE REQUIRED TENSE, MOOD, ETC FROM TABLE BELOW
+<OPTION VALUE=0x100>0x100 INFINITIVE1 lukea (or lukeakse/ni/si/en/mme/nne)
+<OPTION VALUE=0x200>0x200 INFINITIVE2 lukiessa, lukien, luettaessa
+<OPTION VALUE=0x300>0x300 INFINITIVE3 lukema (agential adjective)
+<OPTION VALUE=0x400>0x400 INFINITIVE4 lukeminen
+<OPTION VALUE=0x500>0x500 INFINITIVE5 lukemaisilla/ni/si/an/mme/nne
+<OPTION VALUE=0x600>0x600 PRESENT ACTIVE PARTICIPLE  lukeva
+<OPTION VALUE=0x700>0x700 PRESENT PASSIVE PARTICIPLE luettava
+<OPTION VALUE=0x800>0x800 PERFECT ACTIVE PARTICIPLE  lukenut (full inflection not implemented yet)
+<OPTION VALUE=0x900>0x900 PERFECT PASSIVE PARTICIPLE luettu  (---- "" ----)
+<OPTION VALUE=0xA00>0xA00 AGENTIAL NOUN        lukija
+<OPTION VALUE=0xB00>0xB00 NEGATIVE ADJECTIVE   lukematon     (---- "" ----)
+<OPTION VALUE=0xC00>0xC00 ABSTRACT NOUN luku (Warning: many spurious wild guesses!)
+</SELECT>
+</PRE></TT>
+<P>
+Note: You can use PERSON & PLURAL from the table below to add an
+optional possessive suffix to Non-Finite forms. E.g. Use 2ND PERS and
+PLURAL to get the possessive suffix "-nne". However, don't check anything
+in columns VERIDICTION, MOOD or TENSE if you have selected any Non-Finite
+form from above, otherwise the results will be "funny".
+
+<H4>Finite forms</H4>
+<TABLE BORDER>
+<TR><TH>VERIDICTION</TH><TH>MOOD</TH><TH>TENSE</TH><TH>PERSON</TH>
+    <TH>NUMBER</TH></TR>
+<TR><TD><INPUT TYPE=RADIO NAME=MASK_V VALUE=0000> POS.</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_M VALUE=0000> INDICATIVE</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_T VALUE=0000> PRESENT</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_P VALUE=0000> PASSIVE</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_N VALUE=0000> SINGULAR</TD>
+</TR>
+
+<TR><TD><INPUT TYPE=RADIO NAME=MASK_V VALUE=0200> NEG.</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_M VALUE=0010> IMPERATIVE</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_T VALUE=0040> IMPERFECT</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_P VALUE=0002> 1ST PERS</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_N VALUE=0001> PLURAL</TD>
+</TR>
+
+<TR><TD></TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_M VALUE=0020> CONDITIONAL</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_T VALUE=0100> PERFECT</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_P VALUE=0004> 2ND PERS</TD>
+</TR>
+
+<TR><TD></TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_M VALUE=0030> POTENTIAL</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_T VALUE=0140> PLUPERFECT</TD>
+    <TD><INPUT TYPE=RADIO NAME=MASK_P VALUE=0006> 3RD PERS</TD>
+</TR>
+
+</TABLE>
+
+<H4>Options</H4>
+<UL>
+<LI><INPUT TYPE=RADIO NAME=OPTIONS VALUE=-c><B>-c</B> Print table of nominal cases
+from each selected non-finite form
+(use this when you have selected a specific non-finite form)
+<LI><INPUT TYPE=RADIO NAME=OPTIONS VALUE=-o><B>-o</B> Print only the cases
+actually selected
+(use this when you have selected a specific non-finite or finite inflection
+from the option list or table above)
+<LI><INPUT TYPE=RADIO NAME=OPTIONS VALUE=-s><B>-s</B> Print with special inflections
+(for debugging)
+<LI><INPUT TYPE=RADIO NAME=OPTIONS VALUE=-t CHECKED><B>-t</B> Print full table from each
+selected verb (all selected inflections are ignored)
+<LI><INPUT TYPE=RADIO NAME=OPTIONS VALUE=""><B>[No options]</B> Print predefined
+inflections (don't use this if you have selected some inflections by yourself)
+</UL>
+Note: Don't use options <B>-c</B> or <B>-t</B> if you don't have
+limited the number of verbs selected either with a verb pattern
+or a verb classification. Printing out almost six thousand verbs
+in the table format will almost certainly jam your browser.
+However, you can view the precomputed <A HREF="http://www.iki.fi/~kartturi/conjugat/allverbs.txt">table of all 6037 verbs</A>
+in the database, (almost) fully conjugated. The file's size is about twenty megabytes.
+<P>
+<TABLE>
+<TR>
+<TH><INPUT TYPE=SUBMIT VALUE=Search></TH>
+<TH><INPUT TYPE=RESET VALUE=Reset></TH>
+</TR>
+</TABLE>
+
+</FORM>
+<HR>
+<H3>Notes</H3>
+
+These are a set of modules I wrote in C++ in the end of 1993.
+See the files under the directory <A HREF="http://www.iki.fi/~kartturi/conjugat/">http://www.iki.fi/~kartturi/conjugat/</A>.
+<BR>
+The basic functionality of these modules is to produce any required
+conjugation from a given stem (root) of the Finnish verb,
+which are given in <A HREF="http://www.iki.fi/~kartturi/conjugat/finverbs.new">http://www.iki.fi/~kartturi/conjugat/finverbs.new</A>.
+In this implementation I am much indebted to
+<P>
+<UL>
+<CITE>Eugene Holman's Handbook of Finnish Verbs</CITE>
+      published by SKS,<BR> ISBN 951-717-362-8 (ISSN 0355-1768)
+<P>
+     as well as to 
+<P>
+<CITE>Fred Karlsson's Finnish Grammar</CITE>
+      published by WSOY.
+</UL>
+Of course I wrote all this before I had a slightest idea of
+Kimmo Koskenniemi's dissertation
+<A HREF="twolevel.htm">Two Level Morphology (1983)</A>
+which describes much more generic and elegant method of both
+conjugating and analyzing, not only the Finnish verbs, but
+also all the nouns, adjectives, and other parts of speech as well.
+<P>
+
+You can send comments to <A HREF="../email/howto.htm">me</A>. 
+or 
+<A HREF="http:../">go back to my main page.</A>
+<P>
+Other language related documents:
+<UL>
+<LI><A HREF="../HyClt270k2008AnttiKarttunen/">Beginning of a Spanish Verb conjugator, implemented with Xerox Finite State Tools</A>
+<LI><A HREF="../kielet/plurals.htm">List of English Nouns with Irregular Plurals</A>
+<LI><A HREF="../kielet/espfin.htm">List of Similar Looking Words in Finnish and Spanish</A> (Quite frivolous)
+<LI><A HREF="../kielet/islenzk.txt">List of Similar Looking and Cognate Words in Finnish and Icelandic</A>
+<LI><A HREF="../Runes/runicode.html">Nordic Runes in Unicode</A>
+</UL>
+
+</BODY>
+</HTML>

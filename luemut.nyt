@@ -1,0 +1,76 @@
+T‰m‰ paketti sis‰lt‰‰ suomen kielen verbien konjugaatio-ohjelman.
+Failissa conjugat.cc on itse verbien taivutusfunktio conjugate.
+main sijaitsee failissa conjtest.cc, josta kutsutaan conjugate:a finverbs.new
+failista kaivetuilla vartalolla (stem) ja tyypill‰.
+wildcard.cc sis‰lt‰‰ patternien m‰ts‰ysfunktion, joka sallii kaikenlaisia
+omituisia jokerimerkkej‰, kuten *, ?, @, A, O, U, <joku n‰ist‰>,
+<^ei mik‰‰n n‰ist‰>, ja niin edelleen.
+
+Failit conjtest.cc ja wildcard.cc ovat itse asiassa aivan tavallista ANSI-C:t‰,
+siis ne eiv‰t sis‰ll‰ mit‰‰n C++:n featureja, joten niiden pit‰isi k‰‰nty‰
+tavallisella C:ll‰kin, kunhan reneimaa *.CC:t *.C:eiksi.
+
+conjugat.cc:ss‰ sen sijaan on k‰ytetty hyv‰ksi C++:n inheritoivia luokkia
+(classes), joten se ei pelk‰ll‰ C-k‰‰nt‰j‰ll‰ k‰‰nny.
+Eli siis jotain metodia (esim. get_wps() (= get Weak Passive Stem))
+aletaan etsi‰ eka siit‰ NSS-luokasta, johon ko. verbi kuuluu, jos
+ei lˆydy, niin etsit‰‰n sen parent-luokasta (jokaisen class:in parent-class
+ilmenee class nimi : -m‰‰rittelyn j‰lkeen muodossa: public parent-classin-nimi)
+jos ei siit‰ lˆydy, niin sen parent-classista, jne. kunnes p‰‰dyt‰‰n
+juuri-classiin FVC, josta viimeist‰‰n kaikkien metodien (funktioiden)
+pit‰isi lˆyty‰. Eli FVC:ss‰ on yleens‰ metodien oletusversiot, ja
+"lehti-classeissa" taas sitten poikkeukset.
+
+Sitten kun olet saanut k‰‰nnetty‰ n‰m‰ MS-DOS:sissa (esim. Borland C:ll‰
+jossa on nyky‰‰n myˆs C++), niin tuota samanlainen faili kuin taulu.4
+(ja myˆskin taulu.1) ja vertaile n‰it‰ MS-DOSsissa tuotettuja uusia
+tauluja Unixissa tuotettuihin taulu.1 ja taulu.4 faileihin. (MS-DOS Komennolla
+FC). (Huom! taulu.?:ista puuttuu CR:t.) Tuotoksen pit‰isi olla tietenkin
+sama, muuten on bugeja tullut MS-DOS versioon.
+
+
+Huom! N‰m‰ moduulit tuottavat k‰‰nnett‰ess‰ ziljoona+1 kappaletta varoituksia
+signed ja unsigned pointterien miksaamisesta (jolla ei ole mit‰‰n
+merkityst‰ koodin suoritukselle), joten kaikki varoitukset on parasta
+disabloida jollakin optiolla (g++:lla optio -w ja Borlandin C:ll‰
+muistaakseni -w-), jotta varsinaiset errorit sitten erottuisivat selvemmin
+k‰‰nt‰misen aikana.
+
+Huom, nelj‰nnen infinitiivin (lukeminen), partisiipin perfektien (past eli
+2. participles) (lukenut ja luettu), ja negatiivisen adjektiivin (lukematon)
+taivutuksia ei ole viel‰ implementoitu, eli niist‰ saa vasta perusmuodot
+(nominatiivin). Joten esim. kentt‰ Fourth Infinitive, Partitive
+mink‰ -t optio antaa on virheellinen.
+
+Huomaa ett‰ seuraavat infinitiivit esiintyv‰t kahdesti finverbs.new:iss‰,
+eri taivutusluokissa. (Niin ett‰ toisessa tapahtuu astevaihtelu ja toisessa
+ei, tai sitten toinen taipuu kokonaan eri tavalla.)
+
+Esim. aueta taipuu joko aukean, aukeat, aukeaa,... tai aukenen, aukenet,
+aukenee
+pokata: joko pokkaan, pokkaat,... kun tarkoitetaan kumartamista
+        tai: pokaan, pokaat, pokaa,... kun tarkoitetaan 'iskemist‰'.
+tavata: joko tavaan (I spell), tai tapaan (I meet)
+
+aueta
+halvata
+herjet‰
+iljet‰
+juljeta
+kangeta
+kerit‰
+kevet‰
+kraapata
+laueta
+levet‰
+lohkoa
+oieta
+pokata
+raueta
+salvata
+seljet‰
+suovata
+tavata
+
+finverbs.new:iss‰ saattaa olla viel‰kin virheellisi‰ rivej‰, sanoja
+jotka n‰ytt‰v‰t verbien infinitiiveilt‰, mutta eiv‰t sit‰ oikeasti ole.

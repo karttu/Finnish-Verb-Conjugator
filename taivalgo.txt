@@ -1,0 +1,306 @@
+From root Thu Nov  4 08:53 EET 1993
+>From jkorpela@snakemail.hut.fi Thu Nov  4 10:52:34 1993
+Received: from lk-hp-11.hut.fi by mdata.fi with SMTP (5.65c/1.51PH)
+	id AA03500; Thu, 4 Nov 1993 08:52:41 +0200
+Received: by lk-hp-11.hut.fi (5.65c8/8.0/S-TeKoLa)
+	id AA11175; Thu, 4 Nov 1993 08:52:34 +0200
+Date: Thu, 4 Nov 1993 08:52:34 +0200
+From: <jkorpela@snakemail.hut.fi>
+Message-Id: <199311040652.AA11175@lk-hp-11.hut.fi>
+To: karttu (Antti Karttunen)
+In-Reply-To: karttu@mits.mdata.fi's message of 3 Nov 1993 19:56:58 +0200
+Subject: Algoritmeja suomen kielen sanojen taivuttamiseen?
+X-Charset: ASCII
+X-Char-Esc: 29
+Status: RO
+
+Suomen kielen taivutusta ja sen käänteisoperaatiota (sanan perusmuodon
+päättelyä) on harrastettu parissakin isossa projektissa, joista vanhempi
+pyöri TKK:ssa ja poiki sitten Kielikone Oy:n ja uudempi taas pyörii
+HY:ssa (mahdollisesti yleisen kielitieteen laitoksessa). En tunne asiaa
+kovinkaan hyvin, mutta sen tiedän, että kyse on isosta asiasta ja että
+tuotoksia tuskin saa ilmaiseksi.
+
+Taivuttaminen taivutuskaavojen mukaan on aika yksinkertainen asia
+toteuttaa ohjelmalla. Mutta se vaatii paljon raakaa ohjelmointityötä.
+Sopisi ehkä keskiraskaaksi harjoitustyöksi, ja toivottavasti joku on
+sellaisen tehnyt ja kertoo sinulle.
+
+On aika selvää, että perusmuodon päättely ei yleisesti onnistu siten,
+että tuloksena olisi yksi sana. Jos ohjelman käytössä on Nykysuomen
+sanakirjaa (taivutusluokkanumeroineen) vastaava aineisto, niin voitaneen
+päästä _kohtuullisiin_ tuloksiin, mutta silloin prosessointiajat ovat
+suhteellisen pitkiä. Ja silloinkaan ei saada yksiselitteistä tulosta
+läheskään aina, koska se vaatisi lauseyhteyden tuntemista ja lauseen
+syntaktista ja semanttista analyysia (jotta esim. tiedettäisiin, onko
+"valoin" monikon instruktiivi sanasta "vala" vai "valo" vaiko ehkä
+verbin "valaa" taivutusmuoto). Ja vielä senkin jälkeen jäisi joskus
+ratkeamattomia tapauksia, t.s. moniselitteisyyksiä, jotka eivät ratkea
+millään muulla analyysilla kuin ehkä kysymällä kirjoittajalta, mitä
+hän tarkoittaa.
+
+Suomen kielen sanojen luetteloista: Juttelin jokin aika sitten erään
+Kotimaisten kielten tutkimuskeskuksessa työskentelevän kanssa, ja
+hän mainitsi, että uudet tiedot yritetään saada tietokoneella
+luettavaan muotoon. En muista, onko uusi Perussanakirja jo sellainen,
+mutta kysypä siitä keskuksesta. Sen sijaan "Nykästä" (Nykysuomen
+sanakirjaa) ilmeisesti ei aiotakaan saattaa elektroniseen muotoon.
+
+Jukka Korpela
+
+Article 63 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!klaava!klaava!not-for-mail
+From: silvonen@karhu.Helsinki.FI (Mikko Silvonen)
+Newsgroups: sfnet.tiede.kielitiede,sfnet.keskustelu.kieli,finet.kielet.suomi
+Subject: Re: Algoritmeja suomen kielen sanojen taivuttamiseen?
+Date: 12 Nov 1993 12:12:45 +0200
+Organization: Suomen Keisarillinen Aleksanterin-Yliopisto
+Lines: 15
+Message-ID: <2bvnit$gik@karhu.Helsinki.FI>
+References: <2b8rda$oce@mits.mdata.fi>
+NNTP-Posting-Host: karhu.helsinki.fi
+Xref: prime.mdata.fi sfnet.tiede.kielitiede:63 sfnet.keskustelu.kieli:839 finet.kielet.suomi:60
+
+Viestissä <2b8rda$oce@mits.mdata.fi> karttu@mits.mdata.fi (Antti
+Karttunen) kirjoittaa: 
+
+>Minua kiinnostaisi myös algoritmit saman prosessin suorittamiseksi
+>toiseen suuntaan, eli taivutetusta sanasta analysoitaisiin perusvartalo
+>ja sija missä se on taivutettu.
+
+Kuinkas sattuikaan, sain tällä viikolla töissä valmiiksi juuri tuota
+tekevän aliohjelmakirjaston, mutta sehän on tietysti kaupallinen tuote.
+
+Ehkäpä en kerro enempää, ettei syytetä mainostamisesta.
+-- 
+Mikko Silvonen                  !  Puhu lyhyesti ja harkitse sanasi
+<Mikko.Silvonen@Helsinki.FI>    !        Vihollinen kuuntelee
+University of Helsinki, Finland ! Kirjoita selvästi  Käytä lyhenteitä
+
+
+Article 65 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!hydra.Helsinki.FI!klaava!klaava!not-for-mail
+From: silvonen@karhu.Helsinki.FI (Mikko Silvonen)
+Newsgroups: sfnet.tiede.kielitiede,sfnet.keskustelu.kieli,finet.kielet.suomi
+Subject: Re: Algoritmeja suomen kielen sanojen taivuttamiseen?
+Date: 12 Nov 1993 18:18:58 +0200
+Organization: Suomen Keisarillinen Aleksanterin-Yliopisto
+Lines: 11
+Message-ID: <2c0d1i$7hm@karhu.Helsinki.FI>
+References: <2b8rda$oce@mits.mdata.fi> <2bvnit$gik@karhu.Helsinki.FI>
+NNTP-Posting-Host: karhu.helsinki.fi
+Xref: prime.mdata.fi sfnet.tiede.kielitiede:65 sfnet.keskustelu.kieli:840 finet.kielet.suomi:61
+
+Viestissä <2bvnit$gik@karhu.Helsinki.FI> kirjoitin:
+
+>Ehkäpä en kerro enempää, ettei syytetä mainostamisesta.
+
+Jos nyt sen verran kuitenkin kertoisin, että sähköpostiosoitteeni ko.
+työpaikkaan on <msilvone@ling.Helsinki.FI>. Mahdolliset lisäkysymykset
+voi siis lähettää vaikkapa sinne.
+-- 
+Mikko Silvonen                  ! "Leninillä on niin suuri otsa /
+<Mikko.Silvonen@Helsinki.FI>    !  että siihen mahtuu koko maa ja taivaskin."
+University of Helsinki, Finland !       (Nguyen Hong Kien, suom. Matti Rossi)
+
+
+Article 64 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!nntp.hut.fi!nntp!jkorpela
+From: jkorpela@snakemail.hut.fi (Jukka Korpela)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: Re: Algoritmeja suomen kielen sanojen taivuttamiseen?
+Date: 12 Nov 93 13:14:29 GMT
+Organization: Helsinki University of Technology, Finland
+Lines: 21
+Distribution: sfnet
+Message-ID: <JKORPELA.93Nov12151429@lk-hp-12.hut.fi>
+References: <2b8rda$oce@mits.mdata.fi> <1993Nov9.151215.23868@uwasa.fi>
+NNTP-Posting-Host: lk-hp-12.hut.fi
+In-reply-to: jpe@bacall.uwasa.fi's message of Tue, 9 Nov 1993 15:12:15 GMT
+
+In article <1993Nov9.151215.23868@uwasa.fi> jpe@bacall.uwasa.fi (Jari Perkiomaki) writes:
+
+   Tuollaisten rutiinien perusteella voisi tehda kaikkea kivaa mitä esim.
+   Kielikoneen myymät ohjelmatkin tekevät: oikeinkirjoituksen tarkistusta,
+   sanojen oikolukua, tavutusta etc...
+
+Ei sentään. Taivutusmuotoja tuottavalle ohjelmalle olisi monenlaista
+käyttöä, mutta mainitsemiisi tarkoituksiin tarvitaan ohjelma,
+joka tekee _käänteisen_ operaation, joka on paljon vaativampi.
+Sanan "joki" taivutusmuotojen tuottaminen (kun tunnetaan sanan
+taivutusluokka ja pari muuta faktaa*)) on varsin yksinkertainen homma
+vaikka vaatiikin raakaa ohjelmointityötä, mutta sen päätteleminen,
+että "joissa" on sanan "joki" taivutusmuoto, on paljon hankalampaa.
+(Etenkin, kun "joissa" voi myös olla sanan "joka" taivutusmuoto.)
+
+Yucca
+
+*) Pari muuta faktaa: tieto siitä, onko sanassa astevaihtelu, ja siitä,
+saako se etu- vai takavokaaliset päätteet, ynnä harvoissa tapauksissa
+tieto sanan poikkeuksellisista taivutusmuodoista.
+
+
+Article 66 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!klaava!klaava!ptapanai
+From: ptapanai@utrio.helsinki.fi (Pasi Tapanainen)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: RE: Algoritmeja suomen kielen sanojen taivuttamiseen?
+Date: 22 Nov 1993 14:16:30 GMT
+Organization: University of Helsinki, Department of General Linguistics
+Lines: 20
+Message-ID: <PTAPANAI.93Nov22161630@utrio.helsinki.fi>
+NNTP-Posting-Host: utrio.helsinki.fi
+
+
+> joka tekee _käänteisen_ operaation, joka on paljon vaativampi.
+> Sanan "joki" taivutusmuotojen tuottaminen (kun tunnetaan sanan
+> taivutusluokka ja pari muuta faktaa*)) on varsin yksinkertainen homma
+> vaikka vaatiikin raakaa ohjelmointityötä, mutta sen päätteleminen,
+> että "joissa" on sanan "joki" taivutusmuoto, on paljon hankalampaa.
+> (Etenkin, kun "joissa" voi myös olla sanan "joka" taivutusmuoto.)
+
+Ei kai noissa operaatioissa ole 'vaativuuden' kannalta merkittävää
+eroa.
+
+Suomenkieltä on käsitelty Kimmo Koskenniemen väitöskirjassa "Two-level
+morphology: ..."  (1983), jossa käsitellään (erityisesti suomenkielen)
+taivutusta (tai morfologista analyysia).  Coling-92 konferenssissa on 
+artikkeli Karttunen, Kaplan, Zaenen: "Two-level morphology with 
+composition", jossa esitellään saman tyyppista koneistoa (ranskan 
+kielelle).  Analyysi ja generointi ovat siinä yhtä vaikeita tai helppoja.
+
+Terveisin,
+	Pasi Tapanainen
+
+
+Article 71 of sfnet.tiede.kielitiede:
+Path: prime.mdata.fi!news.eunet.fi!news.funet.fi!hydra.Helsinki.FI!klaava!news.helsinki.fi!ptapanai
+From: ptapanai@utrio.helsinki.fi (Pasi Tapanainen)
+Newsgroups: sfnet.tiede.kielitiede
+Subject: Re: Sanat perusmuotoon?
+Date: 17 Jan 1994 14:23:27 GMT
+Organization: University of Helsinki, Finland
+Lines: 117
+Message-ID: <PTAPANAI.94Jan17162327@utrio.helsinki.fi>
+References: <HARMO.315.2D3A5B91@valt.helsinki.fi>
+NNTP-Posting-Host: utrio.helsinki.fi
+In-reply-to: HARMO@valt.helsinki.fi's message of Mon, 17 Jan 1994 09:34:09 GMT
+
+
+> Onko esimerkiksi HY kielitieteen laitokselta saatavana filtteriohjelmaa, joka
+> kävisi läpi tekstitiedostoja ja muuttaisi sieltä löytyneet suomenkieliset
+> sanat perusmuotoisiksi? Mieluusti saisi vielä laskea tiedostojen eri sanojen 
+> frekvenssit samalla, mutta tuon vaiheen voisimme hoitaa muullakin ohjelmalla.
+>  -Timo Harmo
+
+> (olla esimerkki hy kielitiede laitos saada filtteriohjelma ....)
+================================================================
+("<joo>"
+	("joo"  INTJ))
+("<.>")
+("<sellainen>"
+	("sellainen"  A POS NOM SG))
+("<on>"
+	("olla"  COP V PRES ACT SG3))
+("<olemassa>"
+	("olema"  N INE SG))
+("<.>")
+("<se>"
+	("se"  DEM PRON NOM SG))
+("<perustuu>"
+	("perustua"  V PRES ACT SG3)
+	("perustua"  V DV-U V PRES ACT SG3))
+("<kimmo>"
+	("kimmo"  PROP N NOM SG))
+("<koskenniemen>"
+	("kosken_niemi"  N GEN SG = N GEN SG))
+("<väitöskirjaan>"
+	("väitös_kirja"  N NOM SG = N ILL SG))
+("<ja>"
+	("ja"  COORD C))
+("<ohjelmaa>"
+	("ohjelma"  N PTV SG))
+("<voi>"
+	("voi"  INTJ)
+	("voi"  N NOM SG)
+	("voida"  V PRES ACT SG3)
+	("voida"  V IMPV ACT SG2)
+	("voida"  V PRES ACT NEG)
+	("voida"  V PAST ACT SG3))
+("<käyttää>"
+	("käyttää"  V INF1 NOM)
+	("käyttää"  V PRES ACT SG3))
+("<yleisen>"
+	("yleinen"  A POS GEN SG))
+("<kielitieteen>"
+	("kieli_tiede"  N NOM SG = N GEN SG))
+("<laitoksen>"
+	("laitos"  N GEN SG))
+("<koneilta>"
+	("kone"  N ABL PL)
+	("kone_ilta"  N NOM SG = N NOM SG)
+	("koni"  N ABL PL))
+("<(>")
+("<waltari>"
+	("waltari"  PROP N NOM SG))
+("<on>"
+	("olla"  COP V PRES ACT SG3))
+("<myös>"
+	("myös"  ADV))
+("<laitoksen>"
+	("laitos"  N GEN SG))
+("<ulkopuolisten>"
+	("ulko_puolinen"  = A POS GEN PL))
+("<käytössä>"
+	("käyttö"  N INE SG))
+("<)>")
+("<.>")
+("<kannattaa>"
+	("kannattaa"  V DV-TTA V INF1 NOM)
+	("kannattaa"  V DV-TTA V PRES ACT SG3))
+("<ottaa>"
+	("ottaa"  V INF1 NOM)
+	("ottaa"  V PRES ACT SG3))
+("<yhteyttä>"
+	("yhteys"  N PTV SG))
+("<joko>"
+	("joko"  COORD C)
+	("joko"  ADV))
+("<häneen>"
+	("hän"  PERS PRON ILL SG))
+("<tai>"
+	("tai"  COORD C))
+("<fred>"
+	("fred"  PROP N NOM SG))
+("<karlssoniin>"
+	("karls_son"  PROP N ILL SG))
+("<.>")
+("<puhelinnumerot>"
+	("puhelin_numero"  N NOM SG = N NOM PL))
+("<löytyvät>"
+	("löytyä"  V PRES ACT PL3)
+	("löytyvä"  V PCP1 ACT A POS NOM PL))
+("<varmaan>"
+	("varmaan"  ADV)
+	("varma"  A POS ILL SG))
+("<yliopiston>"
+	("yliopisto"  N GEN SG)
+	("yli_opisto"  = N GEN SG))
+("<puhelinluettelosta>"
+	("puhelin_luettelo"  N NOM SG = N ELA SG))
+("<tai>"
+	("tai"  COORD C))
+("<soittamalla>"
+	("soittama"  V DV-MA N ADE SG))
+("<keskuksen>"
+	("keskus"  N GEN SG))
+("<kautta>"
+	("kautta"  PP)
+	("kausi"  N PTV SG))
+("<.>")
+("<terveisin>"
+	("terveinen"  N INS PL))
+("<,>")
+("<pasi>"
+	("pasi"  PROP N NOM SG))
+
